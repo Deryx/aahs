@@ -3,6 +3,6 @@
  */
 
 $(function() {
-    var pageHeight = $(document).height();
+    var infoHeight = $('content').height();
     $( 'aside' ).css( 'height', pageHeight );
 });
