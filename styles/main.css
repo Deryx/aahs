@@ -6,281 +6,326 @@
 body {
     width: 100%;
     height: 100%;
-    background: rgba(255, 190, 0, 0.15);
 }
 
 header {
+    margin: 0;
+    padding: 0;
     width: 100%;
-    height: 125px;
+    height: 150px;
     clear: both;
-    background: #FFF;
 }
 
-header section {
+header div {
     float: left;
-    margin-left: 40px;
-    padding-bottom: 10px;
+    margin: 10px 0 10px 40px;
 }
 
-header section img {
-    margin-top: 15px;
-    float: left;
-}
-
-header nav {
-    float: right;
-    margin-top: 10px;
-    margin-right: 40px;
-    font-family: 'Ramabhadra', sans-serif;
-}
-
-header nav ul {
-    list-style-type: none;
-    margin-top: 40px;
-}
-
-header nav ul li {
-    display: inline-table;
-    text-transform: uppercase;
-    font-size: 0.8em;
-    font-weight: bold;
-    padding: 5px;
-    letter-spacing: 1px;
-
-}
-
-header nav ul li a {
-    text-decoration: none;
-    display: block;
-    color: #000;
-}
-
-footer {
-    clear: both;
-    width: 100%;
-    height: 108px;
-    -webkit-box-shadow: 5px 0 5px 5px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    5px 0 5px 5px rgba(50, 50, 50, 0.75);
-    box-shadow:         5px 0 5px 5px rgba(50, 50, 50, 0.75);
-    background: rgba(111, 56, 26, 1);
-}
-
-section.slider {
-    clear: both;
-    width: 100%;
-    height: 450px;
-    background: rgba(111, 56, 26, 1);
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.75);
-    box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.75);
-}
-
-#content {
-    width: 78%;
-    float: left;
-    padding-top: 30px;
-    margin-bottom: 30px;
-}
-
-hr {
-    margin-left: 40px;
-    margin-right: 40px;
-    border: none;
-    border-top: 1px solid rgba(111, 56, 26, 1);
-}
-
-#content .current-events {
-    float: left;
-    width: 55%;
-}
-
-#content section h1 {
-    margin-left: 40px;
-    margin-right: 40px;
-    font-family: 'Ramabhadra', sans-serif;
-    text-transform: uppercase;
-}
-
-#content section h3 {
-    margin-left: 40px;
-    font-style: italic;
-}
-
-#content section p {
-    margin-left: 40px;
-    margin-right: 40px;
-    font-family: 'Slabo 27px', serif;
-    font-size: 1.2em;
-}
-
-#content section ul {
-    margin-left: 40px;
-}
-
-#content section .desc h2 {
-    margin-top: 0;
+header div h4 {
+    margin-top: 5px;
+    margin-left: 5px;
     margin-bottom: 0;
 }
 
-#content section.monthly-read img {
+nav {
+    clear: both;
     margin: 0;
-}
-
-#content section.monthly-read p {
-    margin-left: 0;
-    font-size: 0.9em;
-}
-
-aside {
-    margin: 0;
-    margin-top: 0;
+    margin-bottom: 3%;
     padding: 0;
-    padding-bottom: 70px;
-    width: 20%;
-    height: 100%;
-    float: left;
-    background: rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 30px;
+    background: #000;
 }
 
-aside h1:nth-of-type(1) {
-    margin-top: 40px;
-}
-
-aside h1 {
-    margin-top: 40px;
-    margin-bottom: 20px;
+nav ul {
+    margin: 0;
     margin-left: 20px;
-    line-height: 1;
-    font-family: 'Ramabhadra', sans-serif;
-    text-transform: uppercase;
-    font-size: 1.5em;
-    color: #FFF;
-}
-
-aside p {
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: justify;
-    font-family: 'Slabo 27px', serif;
-    font-size: 1.1em;
-    line-height: 1.2;
-    color: #FFF;
-}
-
-aside p:nth-of-type(2) {
-    text-align: center;
-}
-
-aside ul {
+    padding: 0;
     list-style-type: none;
 }
 
-aside ul li {
-    text-indent: -20px;
-    line-height: 1;
-    font-size: 1.1em;
-    margin-bottom: 8px;
-}
-
-aside ul li a {
-    text-decoration: none;
-    color: #002FF1;
-    font-family: 'Slabo 27px', serif;
-    font-weight: 400;
-}
-
-aside ul li a:hover {
-    text-decoration: underline;
-}
-
-.hidden {
-    display: none;
-}
-
-.event-head, .book, .movie {
-    margin: 0;
-    margin-bottom: 20px;
-    padding: 0;
-    width: 92%;
-    height: 100px;
-}
-
-.event-head {
-    background-size: cover;
-    background-image: url(../images/events.bkg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-}
-
-.book {
-    background-size: cover;
-    background-image: url(../images/book.bkg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-}
-
-.movie {
-    background-size: cover;
-    background-image: url(../images/movie.bkg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-}
-
-.event {
-    clear: both;
-    width: 100%;
-    min-height: 70px;
-    margin-bottom: 30px;
-}
-
-.date {
-    margin-left: 40px;
-    float: left;
-    width: 70px;
-    height: 70px;
-    padding: 5px;
+nav ul li {
+    display: inline-table;
+    width: 8.5%;
     text-align: center;
-    background: #000;
-    color: #FFF;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
 }
 
-.day {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.month {
-    font-size: 1em;
+nav ul li a {
+    display: block;
     text-transform: uppercase;
+    font-size: 85%;
+    color: #FFF;
+    padding-top: 7px;
+    height: 30px;
 }
 
-.title {
-    margin-top: 12px;
-    font-size: 1.15em;
-    text-transform: capitalize;
-    font-weight: bold;
-}
-
-.title a {
+nav ul li a:hover {
+    background: #DCBDA9;
+    color: #000;
     text-decoration: none;
 }
 
-.title a:hover {
-    text-decoration: underline;
+nav ul li ul {
+    display: none;
+    margin: 0;
+    width: 8.5%;
+    position: absolute;
+    z-index: 99;
 }
 
-.time {
-    font-size: 1.15em;
-    font-style: italic;
+nav ul li ul li {
+    width: 100%;
+    height: 20px;
+    padding: 0;
+    background: #DCBDA9;
+    color: #FFF;
+    clear: both;
 }
 
-.info {
-    float: left;
-    margin-left: 30px;
+nav ul li ul li a {
+    display: block;
+    text-transform: uppercase;
+    font-size: 85%;
+    color: #FFF;
+    padding-top: 7px;
+    height: 30px;
+}
+
+section {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #CCC;
+}
+
+section:nth-of-type(1) {
+    height: 390px;
+    margin-bottom: 50px;
+}
+
+section .container {
+    width: 980px;
+    height: 500px;
+}
+
+section .container .intro {
+    border: 1px solid #CCC;
+    height: 350px;
+    background: #4B2204;
+    color: #FFF;
+}
+
+section .container .intro p {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section .container .intro p:nth-of-type(1) {
+    padding-top: 20px;
+}
+
+.slide-viewer {
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    background: rgba(75, 34, 4, 0.3);
+    border: 1px solid #CCC;
+}
+
+.slide-group {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+}
+
+.slide:first-child {
+    display: block;
+}
+
+.slide-1 {
+    background-size: contain;
+    background-image: url(../images/slides/Baseball-Team-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide-2 {
+    background-size: contain;
+    background-image: url(../images/slides/Black-Rocklanders.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide-3 {
+    background-size: contain;
+    background-image: url(../images/slides/Black-Women-at-Camp-Shanks.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide-4 {
+    background-size: contain;
+    background-image: url(../images/slides/Brook-School-5-6-1938--2.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide-5 {
+    background-size: contain;
+    background-image: url(../images/slides/Charles-DeGroat-and-Fred-Moran.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide-6 {
+    background-size: contain;
+    background-image: url(../images/slides/Church-School-Hillburn.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide-7 {
+    background-size: contain;
+    background-image: url(../images/slides/Early-Hillburn.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide-8 {
+    background-size: contain;
+    background-image: url(../images/slides/Elizabeth-Thompson.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide-9 {
+    background-size: contain;
+    background-image: url(../images/slides/Hillburn-Black-Faculty.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide-10 {
+    background-size: contain;
+    background-image: url(../images/slides/Lawson-Lawson-Livery.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide-11 {
+    background-size: contain;
+    background-image: url(../images/slides/Malley-Brickyard-Workers---Haverstraw.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide-12 {
+    background-size: contain;
+    background-image: url(../images/slides/Rev.-Byron-Gunner.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide-13 {
+    background-size: contain;
+    background-image: url(../images/slides/Sanders-Matthews.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide-14 {
+    background-size: contain;
+    background-image: url(../images/slides/USO-Band-Group-Picture.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide-15 {
+    background-size: contain;
+    background-image: url(../images/slides/USO-Clubhouse-group-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide-16 {
+    background-size: contain;
+    background-image: url(../images/slides/William-Thompson.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.slide-buttons {
+    margin: 0 auto;
+    position: absolute;
+    width: 980px;
+    left: 50%;
+    margin-left: -490px;
+    margin-top: -15px;
+    text-align: center;
+    z-index: 99;
+    color: #4B2204;
+}
+
+.slide-buttons button {
+    border: none;
+    background: none;
+}
+
+.slide-btn {
+    font-size: 3em;
+}
+
+.active {
+    color: #FF0000;
+}
+
+section .row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .card {
+    border: 1px solid #CCC;
+    width: 290px;
+    height: 200px;
+    display: inline-table;
+    margin: 10px;
+}
+
+#about {
+
+}
+
+section .card h4 {
+    text-align: left;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    padding-left: 20px;
+}
+
+section .card p {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 216px;
+    background: #4B2204;
+    color: #FFF;
+}
+
+footer h4 {
+    margin-top: 25px;
+    text-transform: uppercase;
 }
