@@ -21,6 +21,16 @@ header div {
     margin: 10px 0 10px 40px;
 }
 
+header a {
+    color: #000;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
 header div h4 {
     margin-top: 5px;
     margin-left: 5px;
@@ -98,10 +108,15 @@ section {
 }
 
 section h1 {
-    text-align: left;
-    margin-bottom: 40px;
+    text-align: center;
+    margin-bottom: 50px;
     color: #4B2204;
     text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-top: 5px solid #4B2204;
+    border-bottom: 5px solid #4B2204;
     font-weight: bold;
 }
 
@@ -321,21 +336,22 @@ section .card p {
     padding-right: 20px;
 }
 
-.trustees {
+.links {
     margin-bottom: 30px;
 }
 
-.trustees ul {
+.links ul {
     list-style-type: none;
     margin-left: -50px;
     padding-right: 20px;
 }
 
-.trustees li {
+.links li {
     text-align: right;
+    font-size: 125%;
 }
 
-.trustees li a {
+.links li a {
     text-transform: capitalize;
 }
 
@@ -350,7 +366,7 @@ section .card p {
     border: 1px solid #4B2204;
 }
 
-.bios {
+.info {
     float: left;
     text-align: justify;
     margin-bottom: 30px;
@@ -358,7 +374,7 @@ section .card p {
     min-height: 900px;
 }
 
-.bios h2 {
+.info h2, h3 {
     text-align: left;
     margin-top: 0;
     margin-bottom: 30px;
@@ -368,7 +384,7 @@ section .card p {
     font-weight: bold;
 }
 
-.bios div[id] {
+.info div[id] {
    display: none;
 }
 
@@ -380,17 +396,39 @@ section .card p {
     width: 100%;
 }
 
-.bios div p {
+.info div p {
     padding-left: 30px;
 }
 
-.bios div[name] {
+.info div[name] {
     display: none;
 }
 
 .bio {
     float: right;
     width: 430px;
+}
+
+#about {
+    display: block;
+}
+
+#about .text {
+    float: left;
+    width: 350px;
+}
+
+#about .image {
+    float: left;
+}
+
+#current {
+    display: block;
+}
+
+#current .image {
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 footer {
