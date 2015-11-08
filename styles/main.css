@@ -148,6 +148,11 @@ section .container .intro p:nth-of-type(1) {
     padding-top: 20px;
 }
 
+#introduction {
+    height: 430px;
+    border-bottom: 1px solid #4B2204;
+}
+
 .slide-viewer {
     position: relative;
     overflow: hidden;
