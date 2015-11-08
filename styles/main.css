@@ -368,6 +368,18 @@ section .card p {
     font-weight: bold;
 }
 
+.bios div[id] {
+   display: none;
+}
+
+#jbrathwaite {
+    display: block;
+}
+
+#aclinkscale .bio {
+    width: 100%;
+}
+
 .bios div p {
     padding-left: 30px;
 }

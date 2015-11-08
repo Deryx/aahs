@@ -3,12 +3,9 @@
  */
 
 $(function() {
-    $( '[name=jbrathwaite]' ).show();
-
     $( '.trustees li a').on( 'click', function() {
-        var bio = $( this ).attr( 'href').replace('#', '');
-        console.log( bio );
-        $( '.bios div[name]:visible' ).hide();
-        $( '.bios div[name=' + bio + ']').show();
+        var bio = $( this ).attr( 'href');
+        $( '.bios div[id]:visible' ).hide();
+        $( bio ).fadeIn(2000);
     })
 })
