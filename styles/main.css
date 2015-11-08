@@ -94,7 +94,15 @@ nav ul li ul li a {
 section {
     width: 100%;
     text-align: center;
-    border-bottom: 1px solid #CCC;
+    clear: both;
+}
+
+section h1 {
+    text-align: left;
+    margin-bottom: 40px;
+    color: #4B2204;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 section:nth-of-type(1) {
@@ -105,6 +113,7 @@ section:nth-of-type(1) {
 section .container {
     width: 980px;
     height: 500px;
+    clear: both;
 }
 
 section .container .intro {
@@ -299,10 +308,6 @@ section .card {
     margin: 10px;
 }
 
-#about {
-
-}
-
 section .card h4 {
     text-align: left;
     margin-bottom: 20px;
@@ -316,6 +321,66 @@ section .card p {
     padding-right: 20px;
 }
 
+.trustees {
+    margin-bottom: 30px;
+}
+
+.trustees ul {
+    list-style-type: none;
+    margin-left: -50px;
+    padding-right: 20px;
+}
+
+.trustees li {
+    text-align: right;
+}
+
+.trustees li a {
+    text-transform: capitalize;
+}
+
+.image {
+    float: left;
+    margin-left: 20px;
+    width: 150px;
+}
+
+.image img {
+    padding: 5px;
+    border: 1px solid #4B2204;
+}
+
+.bios {
+    float: left;
+    text-align: justify;
+    margin-bottom: 30px;
+    border-left: 1px solid #4B2204;
+    min-height: 900px;
+}
+
+.bios h2 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    text-transform: capitalize;
+    color: #4B2204;
+    font-weight: bold;
+}
+
+.bios div p {
+    padding-left: 30px;
+}
+
+.bios div[name] {
+    display: none;
+}
+
+.bio {
+    float: right;
+    width: 430px;
+}
+
 footer {
     margin: 0;
     padding: 0;
@@ -323,6 +388,7 @@ footer {
     height: 216px;
     background: #4B2204;
     color: #FFF;
+    clear: both;
 }
 
 footer h4 {
