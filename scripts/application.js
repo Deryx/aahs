@@ -3,13 +3,18 @@
  */
 
 $(function() {
+    $( 'nav li a' ).on( 'click', function() {
+        var section = $( this ).attr( 'id' );
+        console.log( section );
+    });
+
     $( '.links li a').on( 'click', function() {
         var link = $( this ).attr( 'href');
         $( 'a[class=active-link]' ).removeClass( 'active-link' );
         $( this ).addClass( 'active-link' );
         $( '.info div[id]:visible' ).hide();
         $( link ).fadeIn(1500);
-    })
+    });
 
     $( '.links li li a').on( 'click', function() {
         var link = $( this ).attr( 'href');
@@ -18,5 +23,5 @@ $(function() {
         $( this ).addClass( 'active-link' );
         $( '.info div[id]:visible' ).hide();
         $( link ).fadeIn(1500);
-    })
+    });
 })
