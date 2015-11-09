@@ -353,11 +353,23 @@ section .card p {
 
 .links li {
     text-align: right;
+    margin-bottom: 5px;
     font-size: 125%;
+    text-transform: capitalize;
 }
 
 .links li a {
     text-transform: capitalize;
+}
+
+.links li ul {
+    list-style-type: none;
+    margin-left: 200px !important;
+    display: none;
+}
+
+.links li ul li {
+    font-size: 80%;
 }
 
 .image {
@@ -434,6 +446,13 @@ section .card p {
 #current .image {
     margin-left: 30px;
     margin-top: 20px;
+}
+
+.active-link {
+    padding: 5px;
+    background: #4B2204;
+    color: #FFF;
+    -webkit-border-radius: 5px;
 }
 
 footer {
