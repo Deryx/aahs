@@ -3,11 +3,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 
-body {
-    width: 100%;
-    height: 100%;
-}
-
 header {
     margin: 0;
     padding: 0;
@@ -62,11 +57,13 @@ nav ul li {
 
 nav ul li a {
     display: block;
+    width: 100%;
     text-transform: uppercase;
-    font-size: 85%;
     color: #FFF;
-    padding-top: 7px;
-    height: 30px;
+    padding-top: 8px;
+    height: 22px;
+    font-size: 75%;
+    text-decoration: none;
 }
 
 nav ul li a:hover {
@@ -101,6 +98,33 @@ nav ul li ul li a {
     height: 30px;
 }
 
+footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 205px;
+    background: #4B2204;
+    color: #FFF;
+    clear: both;
+    padding-bottom: 20px;
+}
+
+footer .content div {
+    display: inline-table;
+    width: 24%;
+    font-size: 90%;
+}
+
+footer h4 {
+    margin: 0;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+footer p {
+    padding-bottom: 40px;
+}
+
 section {
     width: 100%;
     text-align: center;
@@ -125,43 +149,54 @@ section:nth-of-type(1) {
     margin-bottom: 50px;
 }
 
-section .container {
-    width: 980px;
-    height: 500px;
+.content {
+    width: 61.25em;
+    margin: 0 auto;
     clear: both;
 }
 
-section .container .intro {
+#introduction {
+    clear: both;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #4B2204;
+}
+
+#introduction .content .intro {
+    float: left;
     border: 1px solid #CCC;
+    width: 15em;
     height: 350px;
     background: #4B2204;
     color: #FFF;
 }
 
-section .container .intro p {
+#introduction .content .intro p {
     text-align: left;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 90%;
 }
 
-section .container .intro p:nth-of-type(1) {
+#introduction .intro p:nth-of-type(3) {
+    margin-top: 30px;
+}
+
+#introduction .container .intro p:nth-of-type(1) {
     padding-top: 20px;
 }
 
-#introduction {
-    height: 430px;
-    border-bottom: 1px solid #4B2204;
-}
-
-.slide-viewer {
+#introduction .content .slide-viewer {
+    float: right;
     position: relative;
     overflow: hidden;
+    width: 45em;
     height: 350px;
     background: rgba(75, 34, 4, 0.3);
     border: 1px solid #CCC;
 }
 
-.slide-group {
+.content .slide-viewer .slide-group {
     position: relative;
     width: 100%;
     height: 100%;
@@ -182,7 +217,7 @@ section .container .intro p:nth-of-type(1) {
     background-size: contain;
     background-image: url(../images/slides/Baseball-Team-2.jpg);
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center;
 }
 
 .slide-2 {
@@ -203,7 +238,7 @@ section .container .intro p:nth-of-type(1) {
     background-size: contain;
     background-image: url(../images/slides/Brook-School-5-6-1938--2.jpg);
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center;
 }
 
 .slide-5 {
@@ -217,7 +252,7 @@ section .container .intro p:nth-of-type(1) {
     background-size: contain;
     background-image: url(../images/slides/Church-School-Hillburn.jpg);
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center;
 }
 
 .slide-7 {
@@ -238,7 +273,7 @@ section .container .intro p:nth-of-type(1) {
     background-size: contain;
     background-image: url(../images/slides/Hillburn-Black-Faculty.jpg);
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center;
 }
 
 .slide-10 {
@@ -252,7 +287,7 @@ section .container .intro p:nth-of-type(1) {
     background-size: contain;
     background-image: url(../images/slides/Malley-Brickyard-Workers---Haverstraw.jpg);
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center;
 }
 
 .slide-12 {
@@ -273,14 +308,14 @@ section .container .intro p:nth-of-type(1) {
     background-size: contain;
     background-image: url(../images/slides/USO-Band-Group-Picture.jpg);
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center;
 }
 
 .slide-15 {
     background-size: contain;
     background-image: url(../images/slides/USO-Clubhouse-group-photo.jpg);
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center;
 }
 
 .slide-16 {
@@ -293,7 +328,7 @@ section .container .intro p:nth-of-type(1) {
 .slide-buttons {
     margin: 0 auto;
     position: absolute;
-    width: 980px;
+    width: 61.25em;
     left: 50%;
     margin-left: -490px;
     margin-top: -15px;
@@ -315,34 +350,42 @@ section .container .intro p:nth-of-type(1) {
     color: #FF0000;
 }
 
-section .row {
+#cards {
     width: 100%;
-    margin: 0 auto;
+    margin-bottom: 30px;
+    clear: both;
 }
 
-section .card {
+#cards .content .card {
     border: 1px solid #CCC;
-    width: 290px;
-    height: 200px;
+    width: 18.75em;
+    height: 190px;
     display: inline-table;
     margin: 10px;
+    font-size: 90%;
 }
 
-section .card h4 {
+#cards .card h4 {
     text-align: left;
     margin-bottom: 20px;
     text-transform: capitalize;
     padding-left: 20px;
 }
 
-section .card p {
+#cards .card p {
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
 }
 
+.content .row {
+    width: 100%;
+}
+
 .links {
     margin-bottom: 30px;
+    width: 16.25em;
+    float: left;
 }
 
 .links ul {
@@ -360,6 +403,8 @@ section .card p {
 
 .links li a {
     text-transform: capitalize;
+    text-decoration: none;
+    color: #23527C;
 }
 
 .links li ul {
@@ -372,22 +417,12 @@ section .card p {
     font-size: 80%;
 }
 
-.image {
-    float: left;
-    margin-left: 20px;
-    width: 150px;
-}
-
-.image img {
-    padding: 5px;
-    border: 1px solid #4B2204;
-}
-
 .info {
     float: left;
     text-align: justify;
     margin-bottom: 30px;
     border-left: 1px solid #4B2204;
+    width: 43em;
     min-height: 900px;
 }
 
@@ -402,7 +437,17 @@ section .card p {
 }
 
 .info div[id] {
-   display: none;
+    display: none;
+}
+.image {
+    float: left;
+    margin-left: 20px;
+    width: 9.375em;
+}
+
+.image img {
+    padding: 5px;
+    border: 1px solid #4B2204;
 }
 
 #jbrathwaite {
@@ -421,9 +466,13 @@ section .card p {
     display: none;
 }
 
+.info .top {
+    display: none;
+}
+
 .bio {
     float: right;
-    width: 430px;
+    width: 31.62em;
 }
 
 #about {
@@ -453,19 +502,4 @@ section .card p {
     background: #4B2204;
     color: #FFF;
     -webkit-border-radius: 5px;
-}
-
-footer {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 216px;
-    background: #4B2204;
-    color: #FFF;
-    clear: both;
-}
-
-footer h4 {
-    margin-top: 25px;
-    text-transform: uppercase;
 }
