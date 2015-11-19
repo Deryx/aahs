@@ -409,13 +409,16 @@ section:nth-of-type(1) {
 
 .links li ul {
     list-style-type: none;
+    margin-top: 20px;
     margin-left: 200px;
     display: none;
 }
 
 .links li ul li {
     font-size: 80%;
+    margin-left: -30px;
 }
+
 
 .info {
     float: left;
