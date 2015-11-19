@@ -409,7 +409,7 @@ section:nth-of-type(1) {
 
 .links li ul {
     list-style-type: none;
-    margin-left: 200px !important;
+    margin-left: 200px;
     display: none;
 }
 

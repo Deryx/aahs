@@ -3,18 +3,18 @@
         display: block;
         text-decoration: none;
         margin-left: 20px;
-        padding-top: 5px;
         color: #FFF;
         text-transform: uppercase;
         font-size: 90%;
     }
 
     #menu .menu-button {
-        margin-top: -1px;
-        width: 18px;
-        height: 18px;
-        background: #000;
-        padding: 2px;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        padding-top: 6px;
+        padding-bottom: 4px;
+        background: #FF0000;
     }
 
     #menu .menu-button div {
@@ -184,21 +184,100 @@
     .content .links {
         margin-left: 20px;
         width: 14em;
-        font-size:60%;
+        font-size: 80%;
+    }
+
+    .content .links li ul {
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .content .links li ul li {
+        display: block;
+    }
+
+    ul#years li {
+        text-indent: 0;
     }
 
     .content .image {
-        width: 7em;
+        width: 13em;
+        margin-bottom: 20px;
+        clear: both;
     }
 
     .content .image img {
-        width: 7em;
+        width: 13em;
     }
 
     .content .info {
         width: 41em;
         font-size: 65%;
         min-height: 600px;
+    }
+
+    #aclinkscale .bio {
+        width: 80%;
+    }
+
+    .content .info .bio h2 {
+        text-align: left;
+        margin-left: -100px;
+        font-size: 250%;
+    }
+
+    .content .info .bio p {
+        width: 97%;
+        margin-left: -100px;
+        font-size: 125%;
+        display: block;
+        clear: both;
+    }
+
+    #about h2, #mission h2, #programming h2 {
+        font-size: 300%;
+    }
+
+    #mission .text, #programming .text {
+        width: 78%;
+    }
+
+    #about .text, #mission .text, #programming .text {
+        font-size: 140%;
+    }
+
+    #about .image img, #mission .image img {
+        width: 230%;
+        margin-left: 10px;
+    }
+
+    .info div .image {
+        clear: both;
+        display: block;
+    }
+
+    #current .text {
+        width: 88%;
+        font-size: 150%;
+    }
+
+    #current .image img {
+        width: 250%;
+    }
+
+    #current h2 {
+        font-size: 300%;
+    }
+
+    div[id*='201'] h2 {
+        margin-left: 130px;
+        font-size: 250%;
+    }
+
+    div[id*='201'] .image img {
+        width: 250%;
+        margin-left: 10px;
     }
 }
 
@@ -303,6 +382,16 @@
         text-align: center;
     }
 
+    .content .links li ul {
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .content .links li ul li {
+        margin-left: -200px;
+    }
+
     #years {
         list-style-type: none;
         display: none;
@@ -357,6 +446,23 @@
 
     .bio h2 {
         text-align: center;
+    }
+
+    #current .text {
+        width: 40%;
+    }
+
+    #current .image img {
+        width: 47%;
+    }
+
+    div[id*='201'] h2 {
+        margin-left: 155px;
+    }
+
+    div[id*='201'] .image img {
+        width: 49%;
+        margin-left: -90px;
     }
 }
 
@@ -460,6 +566,12 @@
         text-align: center;
     }
 
+    .content .links li ul {
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+    }
+
     .content .image {
         width: 73%;
     }
@@ -521,6 +633,23 @@
 
     #programming {
         width: 40%;
+    }
+
+    #current .text {
+        width: 40%;
+    }
+
+    #current .image img {
+        width: 47%;
+    }
+
+    div[id*='201'] h2 {
+        margin-left: 130px;
+    }
+
+    div[id*='201'] .image img {
+        width: 47%;
+        margin-left: -70px;
     }
 }
 
@@ -624,6 +753,12 @@
         text-align: center;
     }
 
+    .content .links li ul {
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+    }
+
     .content .info {
         clear: both;
         display: block;
@@ -665,6 +800,23 @@
 
     .bio h2 {
         text-align: center;
+    }
+
+    #current .text {
+        width: 40%;
+    }
+
+    #current .image img {
+        width: 47%;
+    }
+
+    div[id*='201'] h2 {
+        margin-left: 130px;
+    }
+
+    div[id*='201'] .image img {
+        width: 47%;
+        margin-left: -70px;
     }
 }
 
@@ -766,6 +918,12 @@
         text-align: center;
     }
 
+    .content .links li ul {
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+    }
+
     .content .info {
         clear: both;
         display: block;
@@ -807,6 +965,23 @@
 
     .bio h2 {
         text-align: center;
+    }
+
+    #current .text {
+        width: 40%;
+    }
+
+    #current .image img {
+        width: 47%;
+    }
+
+    div[id*='201'] h2 {
+        margin-left: 130px;
+    }
+
+    div[id*='201'] .image img {
+        width: 47%;
+        margin-left: -70px;
     }
 }
 
@@ -907,6 +1082,12 @@
         text-align: center;
     }
 
+    .content .links li ul {
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+    }
+
     .content .info {
         clear: both;
         display: block;
@@ -970,5 +1151,22 @@
 
     #programming {
         width: 35%;
+    }
+
+    #current .text {
+        width: 35%;
+    }
+
+    #current .image img {
+        width: 40%;
+    }
+
+    div[id*='201'] h2 {
+        margin-left: 100px;
+    }
+
+    div[id*='201'] .image img {
+        width: 44%;
+        margin-left: -50px;
     }
 }
