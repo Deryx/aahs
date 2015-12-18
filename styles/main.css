@@ -127,6 +127,7 @@ footer p {
 
 section {
     width: 100%;
+    min-height: 450px;
     text-align: center;
     clear: both;
 }
@@ -576,4 +577,15 @@ div[id^="2"] .image {
     background: #DCBDA9;
     border: 1px solid #000;
     color: #000;
+}
+
+#contribute .content p {
+    width: 450px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#contribute .content p:nth-of-type(2) {
+    text-align: center;
+    margin-top: 40px;
 }
