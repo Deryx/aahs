@@ -651,6 +651,30 @@
         width: 47%;
         margin-left: -70px;
     }
+
+    #history .info h2 {
+        width: 33%;
+        text-align: center;
+    }
+
+    #history .info p {
+        width: 33%;
+    }
+
+    #contribute .content, #contact .content, #links .content {
+        width: 90%;
+        margin-left: 5px;
+    }
+
+    #contribute .content h1, #contact .content h1, #links h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #contribute .content p, #contact .content p, #links p {
+        width: 90%;
+        font-size: 90%;
+    }
 }
 
 @media screen and (max-device-width: 375px) {
@@ -818,6 +842,30 @@
         width: 47%;
         margin-left: -70px;
     }
+
+    #history .info h2 {
+        width: 33%;
+        text-align: center;
+    }
+
+    #history .info p {
+        width: 33%;
+    }
+
+    #contribute .content, #contact .content, #links .content {
+        width: 90%;
+        margin-left: 5px;
+    }
+
+    #contribute .content h1, #contact .content h1, #links h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #contribute .content p, #contact .content p, #links p {
+        width: 90%;
+        font-size: 90%;
+    }
 }
 
 @media screen and (max-device-width: 360px) {
@@ -983,6 +1031,30 @@
         width: 47%;
         margin-left: -70px;
     }
+
+    #history .info h2 {
+        width: 33%;
+        text-align: center;
+    }
+
+    #history .info p {
+        width: 33%;
+    }
+
+    #contribute .content, #contact .content, #links .content {
+        width: 90%;
+        margin-left: 5px;
+    }
+
+    #contribute .content h1, #contact .content h1, #links h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #contribute .content p, #contact .content p, #links p {
+        width: 90%;
+        font-size: 90%;
+    }
 }
 
 @media screen and (max-device-width: 320px) {
@@ -1069,13 +1141,25 @@
         clear: both;
         display: block;
         width: 32.5%;
+        min-height: 150px;
         font-size: 90%;
         padding-bottom: 20px;
         border-bottom: 1px solid #4B2204;
     }
 
+    .content .links h2 {
+        text-align: center;
+        margin-left: 40px;
+    }
+
     .content .links ul {
         margin: 0 auto;
+    }
+
+    .content .links hr {
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 20px;
     }
 
     .content .links li {
@@ -1168,5 +1252,29 @@
     div[id*='201'] .image img {
         width: 44%;
         margin-left: -50px;
+    }
+
+    #history .info h2 {
+        width: 33%;
+        text-align: center;
+    }
+
+    #history .info p {
+        width: 33%;
+    }
+
+    #contribute .content, #contact .content, #links .content {
+        width: 90%;
+        margin-left: 5px;
+    }
+
+    #contribute .content h1, #contact .content h1, #links h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #contribute .content p, #contact .content p, #links p {
+        width: 90%;
+        font-size: 90%;
     }
 }
