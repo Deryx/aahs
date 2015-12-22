@@ -380,6 +380,58 @@ section:nth-of-type(1) {
     padding-right: 20px;
 }
 
+#cards .card-about {
+    background-size: contain;
+    background: url(../images/about-card-bk.jpg);
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+
+#cards .card-events {
+    background-size: contain;
+    background: url(../images/event-card-bk.jpg);
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+
+#cards .card-history {
+    background-size: contain;
+    background: url(../images/history-card-bk.jpg);
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+
+#cards .card-member {
+    background-size: contain;
+    background: url(../images/member-card-bk.jpg);
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+
+#cards .card-links {
+    background-size: contain;
+    background: url(../images/links-card-bk.jpg);
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+
+#cards .card-contribute {
+    background-size: contain;
+    background: url(../images/contact-card-bk.jpg);
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+
+#cards .card a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+#cards .card a:hover {
+    text-decoration: underline;
+}
+
 .links {
     margin-bottom: 30px;
     width: 16.25em;
@@ -437,6 +489,7 @@ section:nth-of-type(1) {
     width: 43em;
     height: 600px;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .info h2, h3 {
@@ -538,6 +591,51 @@ ul#years li a {
 
 div[id^="2"] .image {
     clear: both;
+    margin-bottom: 20px;
+}
+
+#past p {
+    clear: both;
+    display: block;
+}
+
+#past h3 {
+    clear: both;
+    display: block;
+    padding-top: 20px;
+}
+
+div[id^="2"] ul {
+    clear: both;
+    list-style-type: none;
+    margin-left: 0;
+}
+
+div[id^="2"] ul li {
+    text-indent: -10px;
+}
+
+div[id^="2"] ul li a {
+    text-decoration: none;
+    color: #0044cc;
+}
+
+div[id^="2"] ul li a:hover {
+    text-decoration: underline;
+}
+
+div[id^="2"] p a {
+    text-decoration: none;
+    color: #0044cc;
+}
+
+#past p a:hover {
+    text-decoration: underline;
+}
+
+#2010 .image img {
+    padding: 5px;
+    border: none;
 }
 
 .links .active-link {
