@@ -51,7 +51,7 @@ nav ul {
 
 nav ul li {
     display: inline-table;
-    width: 9.5%;
+    width: 10.5%;
     text-align: center;
 }
 
@@ -60,10 +60,12 @@ nav ul li a {
     width: 100%;
     text-transform: uppercase;
     color: #FFF;
-    padding-top: 8px;
+    padding-top: 5px;
+    padding-bottom: 3px;
     height: 22px;
-    font-size: 75%;
+    font-size: 72%;
     text-decoration: none;
+    font-family: "Ramabhadra", sans-serif;
 }
 
 nav ul li a:hover {
@@ -75,7 +77,7 @@ nav ul li a:hover {
 nav ul li ul {
     display: none;
     margin: 0;
-    width: 8.5%;
+    width: 10.5%;
     position: absolute;
     z-index: 99;
 }
@@ -686,4 +688,62 @@ div[id^="2"] p a {
 #contribute .content p:nth-of-type(2) {
     text-align: center;
     margin-top: 40px;
+}
+
+#site-overlay {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    display: none;
+}
+
+[id=lightbox-1], [id=lightbox-2], [id=lightbox-3], [id=lightbox-4] {
+    padding: 0;
+    position: absolute;
+    width: 856px;
+    margin-left: -428px;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    display: none;
+    background: #FFF;
+    overflow-y: auto;
+    overflow-x: hidden;
+    clear: both;
+
+}
+
+[id=lightbox-10] {
+    padding: 0;
+    position: absolute;
+    width: 848px;
+    margin-left: -424px;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    display: none;
+    background: #FFF;
+    overflow-y: auto;
+    overflow-x: hidden;
+    clear: both;
+
+}
+
+[id=lightbox-5], [id=lightbox-6], [id=lightbox-7], [id=lightbox-8], [id=lightbox-9] {
+    padding: 0;
+    position: absolute;
+    width: 640px;
+    margin-left: -320px;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    display: none;
+    background: #FFF;
+    overflow-y: auto;
+    overflow-x: hidden;
+    clear: both;
 }
